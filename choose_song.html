@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>曲選択</title>
+</head>
+<body>
+  <h1>好きな曲を選ぶドン！</h1>
+  最終更新 2020/10/03: twitterシェア機能追加, 全曲作成<br>
+  今後の目標:ジャンルソート、難易度ソート(多分☆10のみ)、曲データの外部ファイル化 <br><br>
+  <button onclick="choose('pops')">ポップス曲から選ぶドン！</button>
+  <button onclick="choose('anime')">アニメ曲から選ぶドン！</button>
+  <button onclick="choose('vocaloid')">ボーカロイド曲から選ぶドン！</button> <br>
+  <button onclick="choose('kids')">キッズ曲から選ぶドン！</button>
+  <button onclick="choose('classic')">クラシック曲から選ぶドン！</button>
+  <button onclick="choose('imas')">アイドルマスターの曲を集めたドン！</button> <br>
+  <button onclick="choose('game')">ゲーム＆バラエティ曲から選ぶドン！</button>
+  <button onclick="choose('namco')">ナムコオリジナル曲から選ぶドン！</button><br>
+  <span id="result"></span>
+  <div id="tweet"></div>
+  <script src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  <script src="choose_song.js"></script>
+</body>
+</html>
